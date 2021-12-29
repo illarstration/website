@@ -32,6 +32,7 @@ html{
 }
 
 .navbar{
+  z-index: 100;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -65,10 +66,12 @@ img{
   display: flex;
   width: 100%;
   transition: transform .2s;
+  z-index:0;
 }
 
 img:hover{
   transform: scale(1.1);
+  z-index:1;
 }
 
 body{
