@@ -81,11 +81,12 @@ body{
 h1{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
-  font-size: 75px;
+  font-size: 4em;
 }
 
 p{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 1em;
 }
 
