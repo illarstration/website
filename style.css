@@ -24,6 +24,7 @@ body{
 
 .section.right{
   text-align: right;
+  padding: 0% 30% 0% 0%;
 }
 
 .container{
@@ -103,6 +104,7 @@ body{
 }
 
 .background{
+  position: relative;
   padding: 20px 0px 20px 0px;
   display: block;
   width: 100%;
@@ -185,4 +187,13 @@ a.mailbutton{
 a:hover.mailbutton{
   color: #dcdcdc;
   background-color: #232323;
+}
+
+.backgroundimage {
+  position: absolute;
+  bottom: 0;
+  left: 66.6%;
+  width: 40%;
+  opacity: 50%;
+  pointer-events: none;
 }
