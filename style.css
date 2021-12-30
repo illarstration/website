@@ -127,14 +127,12 @@ h1{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
   font-size: 8em;
-  color: #232323;
 }
 
 h2{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
   font-size: 4em;
-  color: #232323;
 }
 
 p{
@@ -143,7 +141,6 @@ p{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1em;
-  color: #232323;
 }
 
 .popup{
