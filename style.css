@@ -64,7 +64,7 @@ body{
   color: #000000;
 }
 
-.navbar a:hover{
+.navbar a.right:hover{
   background-color: #c8c8c8;
 }
 
