@@ -82,7 +82,7 @@ img{
 
 .column>img:hover{
   z-index:1;
-  transform: scale(1.05);
+  transform: scale(1.01);
   filter: drop-shadow(0 0 0.75rem black);
 }
 
