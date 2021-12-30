@@ -114,12 +114,12 @@ body{
 
 .light{
   background-color: #dcdcdc;
-  color: #000000;
+  color: #232323;
 }
 
 .dark{
   background-color: #232323;
-  color: #ffffff;
+  color: #dcdcdc;
 }
 
 
