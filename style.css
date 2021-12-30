@@ -111,6 +111,12 @@ img{
 h1{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
+  font-size: 8em;
+}
+
+h2{
+  font-family: "Noto Serif Display", serif;
+  font-weight: 500;
   font-size: 4em;
 }
 
