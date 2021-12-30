@@ -64,6 +64,10 @@ body{
   color: #000000;
 }
 
+.navbar a:hover{
+  background-color: #b4b4b4;
+}
+
 .navbar .left{
   float: left;
   display: block;
@@ -83,7 +87,7 @@ img{
 .column>img:hover{
   z-index:1;
   transform: scale(1.01);
-  filter: drop-shadow(0 0 0.75rem black);
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 .background{
