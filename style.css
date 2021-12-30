@@ -57,7 +57,6 @@ body{
 }
 
 .navbar a{
-  float: right;
   display: block;
   text-align: center;
   padding: 14px;
@@ -71,11 +70,10 @@ body{
 
 .navbar .left{
   float: left;
-  display: block;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  color: #000000;
+}
+
+.navbar .right{
+  float: right;
 }
 
 img{
