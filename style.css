@@ -122,6 +122,10 @@ body{
   color: #dcdcdc;
 }
 
+.dark{
+  background-color: none;
+  color: #232323;
+}
 
 h1{
   font-family: "Noto Serif Display", serif;
@@ -197,5 +201,14 @@ a:hover.mailbutton{
   bottom: 0;
   right: 0;
   opacity: 50%;
+  pointer-events: none;
+}
+
+.topperimage {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 100%;
   pointer-events: none;
 }
