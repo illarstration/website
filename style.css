@@ -64,17 +64,17 @@ body{
   filter: drop-shadow(0 0 0.25rem black);
 }
 
-.botlink a{
+a.botlink{
   text-decoration: none;
   color: #dcdcdc;
 }
 
-.botlink a:hover{
+a.botlink:hover{
   text-decoration: none;
   color: #ffffff;
 }
 
-.botlink a:visited{
+a.botlink:visited{
   text-decoration: none;
   color: #dcdcdc;
 }
