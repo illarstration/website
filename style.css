@@ -246,6 +246,7 @@ a:hover.mailbutton{
 .backgroundimage {
   position: absolute;
   width: 30%;
+  min-width: 250px;
   bottom: 0;
   right: 0;
   opacity: 50%;
