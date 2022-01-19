@@ -69,12 +69,12 @@ a.botlink{
   color: #dcdcdc;
 }
 
-a.botlink:hover{
+a:hover.botlink{
   text-decoration: none;
   color: #ffffff;
 }
 
-a.botlink:visited{
+a:visited.botlink{
   text-decoration: none;
   color: #dcdcdc;
 }
