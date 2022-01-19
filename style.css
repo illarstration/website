@@ -74,6 +74,11 @@ body{
   color: #ffffff;
 }
 
+.botlink a:visited{
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
 .navbar a{
   display: block;
   text-align: center;
