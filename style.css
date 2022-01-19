@@ -70,13 +70,7 @@ a.botlink{
 }
 
 a:hover.botlink{
-  text-decoration: none;
   color: #ffffff;
-}
-
-a:visited.botlink{
-  text-decoration: none;
-  color: #dcdcdc;
 }
 
 .navbar a{
