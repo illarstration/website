@@ -47,7 +47,26 @@ body{
   justify-content: flex-start;
   align-content: center;
   margin: 0;
+}
+
+.threecolumns{
+  display:none;
+}
+
+.threecolumns .column{
+  width: 33.33%;
+}
+.fivecolumns .column{
   width: 20%;
+}
+
+@media only screen and (max-width: 900px){
+  .threecolumns{
+    display: flex;
+  }
+  .fivecolumns{
+    display: none;
+  }
 }
 
 .navbar{
@@ -62,6 +81,13 @@ body{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
   filter: drop-shadow(0 0 0.25rem black);
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 500px){
+  .navbar .hidefirst{
+    display: none;
+  }
 }
 
 a.botlink{
@@ -178,6 +204,7 @@ h1{
   }
   .toptext>.section{
     margin-top:80px;
+    margin-bottom:60px;
   }
 }
 
