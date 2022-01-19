@@ -101,6 +101,21 @@ a:hover.botlink{
   gap: 40px;
 }
 
+@media only screen and (max-width: 700px){
+  .about-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  /*h2{
+    text-align: center;
+  }*/
+  .section.right{
+    text-align: left;
+    padding: 0;
+  }
+}
+
+
 .about-container>img{
   width: 200px;
   border-radius: 50%;
@@ -145,19 +160,31 @@ a:hover.botlink{
 .toptext{
   background-image:  url("title_002.jpg");
   background-size: cover;
+  background-position: center;
   color: #232323;
 }
 
 h1{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
-  font-size: 8em;
+  font-size: 128px;
+}
+@media only screen and (max-width: 900px){
+  h1{
+    font-size: 80px;
+  }
+  .toptext>.section>p{
+    max-width: 50%;
+  }
+  .toptext>.section{
+    margin-top:80px;
+  }
 }
 
 h2{
   font-family: "Noto Serif Display", serif;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 64px;
 }
 
 p{
@@ -165,7 +192,7 @@ p{
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .popup{
@@ -218,7 +245,7 @@ a:hover.mailbutton{
 
 .backgroundimage {
   position: absolute;
-  width: 35%;
+  width: 30%;
   bottom: 0;
   right: 0;
   opacity: 50%;
