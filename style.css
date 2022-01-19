@@ -64,12 +64,22 @@ body{
   filter: drop-shadow(0 0 0.25rem black);
 }
 
+.botlink a{
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+.botlink a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .navbar a{
   display: block;
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  color: #000000;
+  color: #232323;
 }
 
 .navbar a.right:hover{
