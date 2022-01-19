@@ -24,7 +24,6 @@ body{
 
 .gallery{
   max-width: 100%;
-  margin-top: 150px;
   margin-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +37,6 @@ body{
 
 .container{
   display: flex;
-  margin-top: 70px;
 }
 
 
@@ -120,6 +118,10 @@ body{
   margin: 0;
 }
 
+.background.flush-top{
+  padding: 0px 0px 20px 0px;
+}
+
 
 .light{
   background-color: #dcdcdc;
@@ -132,7 +134,8 @@ body{
 }
 
 .toptext{
-  background-color: none;
+  background-image:  url("title_002.jpg");
+  background-size: cover;
   color: #232323;
 }
 
