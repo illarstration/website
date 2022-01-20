@@ -97,6 +97,14 @@ a.botlink{
 
 a:hover.botlink{
   color: #ffffff;
+  
+a.slink{
+  text-decoration: none;
+  color: #232323;
+}
+
+a:hover.slink{
+  color: #dcdcdc;
 }
 
 .navbar a{
