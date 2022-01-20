@@ -46,15 +46,18 @@ a.botlink{
 
 a:hover.botlink{
   color: #ffffff;
+  transition: 0.3s;
 }
   
 a.slink{
   text-decoration: none;
   color: #232323;
+  line-height 1.5em;
 }
 
 a:hover.slink{
   color: #dcdcdc;
+  transition: 0.3s;
 }
 
 .column{
