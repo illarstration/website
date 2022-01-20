@@ -39,6 +39,23 @@ body{
   display: flex;
 }
 
+a.botlink{
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:hover.botlink{
+  color: #ffffff;
+}
+  
+a.slink{
+  text-decoration: none;
+  color: #232323;
+}
+
+a:hover.slink{
+  color: #dcdcdc;
+}
 
 .column{
   display: inline-flex;
@@ -88,24 +105,6 @@ body{
   .navbar .hidefirst{
     display: none;
   }
-}
-
-a.botlink{
-  text-decoration: none;
-  color: #dcdcdc;
-}
-
-a:hover.botlink{
-  color: #ffffff;
-}
-  
-a.slink{
-  text-decoration: none;
-  color: #232323;
-}
-
-a:hover.slink{
-  color: #dcdcdc;
 }
 
 .navbar a{
