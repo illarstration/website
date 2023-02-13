@@ -202,8 +202,8 @@ a:hover.slink{
 }
 
 h1{
-  font-family: "Noto Serif Display", serif;
-  font-weight: 500;
+  font-family: "Arima", serif;
+  font-weight: 800;
   font-size: 128px;
 }
 @media only screen and (max-width: 900px){
@@ -220,15 +220,15 @@ h1{
 }
 
 h2{
-  font-family: "Noto Serif Display", serif;
-  font-weight: 500;
+  font-family: "Arima", serif;
+  font-weight: 800;
   font-size: 64px;
 }
 
 p{
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
