@@ -292,6 +292,7 @@ a:hover.mailbutton{
 }
 
 .topperimage {
+  height:20vh;
   position: absolute;
   width: 100%;
   top: 0;
