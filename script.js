@@ -4,8 +4,11 @@ function init(){
   let touchendY = 0;
   let open = 0;
   function toggleOpen(){
-  document.querySelector(".header-box").classList.toggle('open');
-    document.querySelector(".parallax").classList.toggle('noscroll');
+    let header = document.querySelector(".header-box").classList.toggle('open');
+    let parallax = document.querySelector(".parallax");
+    if(parallax !== null){
+      parallax.classList.toggle('noscroll');
+    }
     open = 1 - open;
   }
   
