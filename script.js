@@ -33,17 +33,13 @@ function init(){
   //init popup
   let popup = document.getElementById('popup');
   if(popup !== null){
-    console.log(popup);
     popup.addEventListener('click', () => {
       popup.style.display = 'none';
     });
     let imgs = document.querySelectorAll('.pictureframe > img');
-    console.log(imgs);
     imgs.forEach(img => {
-      console.log(img.src);
       let name = img.src.split('_').pop();
       let path = "img/g-cont_" + name;
-      console.log(path);
       img.addEventListener('click', () => {
          spawnPopup(path);
       });
