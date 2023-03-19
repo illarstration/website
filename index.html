@@ -10,7 +10,6 @@
 </head>
 <body>
   <div class="parallax">
-
     <div class="header-box">
       <div class="header">
         <span class="title">ILLARSTRATION<br>STUDIO</span>
@@ -35,21 +34,21 @@
   </div>
 
   <div class="picture-box">
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
-    <div class="pictureframe"><img></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_01.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_02.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_03.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_04.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_05.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_06.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_07.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_08.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_09.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_10.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_11.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_12.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_13.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_14.jpg"></div>
+    <div class="pictureframe"><img src="thumbs/g-thumb_15.jpg"></div>
   </div>
   <div class="bottom-box">
     <div class="textbox bottom">
@@ -77,39 +76,8 @@
     </div>
   </div>
   </div>
-<script>
-  document.querySelectorAll(".pictureframe>img").forEach((x) => {
-    let r = Math.floor(Math.random()*256);
-    let g = Math.floor(Math.random()*256);
-    let b = Math.floor(Math.random()*256);
-    let c = "rgb("+r.toString()+","+g.toString()+","+b.toString()+")";
-    x.style.backgroundColor = c;
-    });
-
-let touchstartY = 0;
-let touchendY = 0;
-let open = 0;
-
-function toggleOpen(){
-  document.querySelector(".header-box").classList.toggle('open');
-  document.body.classList.toggle('noscroll');
-  open = 1 - open;
-}
-
-document.querySelector(".header>img.logo").addEventListener('click',(e)=>{
-  toggleOpen();
-});
-    
-document.addEventListener('touchstart', e => {
-  touchstartY = e.changedTouches[0].screenY
-})
-
-document.addEventListener('touchend', e => {
-  touchendY = e.changedTouches[0].screenY
-  if((touchstartY - touchendY > 70) & open){
-    toggleOpen();
-  }
-})
-</script>
+  <div id="popup" class="popup">
+    <img id="popup-image" class="popup-image">
+  </div>
 </body>
 
