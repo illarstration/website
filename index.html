@@ -1,3 +1,4 @@
+<!doctype html>
 <head>
   <title>Illarstration</title>
   <meta name="keywords" content="Illustration, DigitalArt, Artist, Fantasy">
@@ -9,16 +10,22 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="parallax">
-    <div class="header-box">
-      <div class="header">
-        <span class="title">ILLARSTRATION<br>STUDIO</span>
-        <img class="logo" src="logo.svg">
-      </div>
-      <div class="menu line">WORKS</div>
-      <div class="menu line">CONTACT ME</div>
-      <div class="menu line">IMPRINT</div>
+  <div class="header-box">
+    <div class="header">
+      <a class="title" href="#up">
+        <img class="logo wide" src="logo.svg">
+        <span class="title-text">
+        ILLARSTRATION<br>STUDIO
+        </a>
+      </span>
+      <img class="logo narrow" src="logo.svg">
     </div>
+    <a class="menuline" href="#pictures">WORKS</a>
+    <a class="menuline" href="#contact">CONTACT ME</a>
+    <a class="menuline last" href="imprint.html">IMPRINT</a>
+  </div>
+  <div class="parallax">
+    <div id="up"></div>
     <div class="wallpaper-container">
       <img class="wallpaper" src="bg_main_fullhd.jpg">
     </div>
@@ -33,7 +40,7 @@
     </div>
   </div>
 
-  <div class="picture-box">
+  <div id="pictures" class="picture-box">
     <div class="pictureframe"><img src="thumbs/g-thumb_01.jpg"></div>
     <div class="pictureframe"><img src="thumbs/g-thumb_02.jpg"></div>
     <div class="pictureframe"><img src="thumbs/g-thumb_03.jpg"></div>
@@ -50,7 +57,7 @@
     <div class="pictureframe"><img src="thumbs/g-thumb_14.jpg"></div>
     <div class="pictureframe"><img src="thumbs/g-thumb_15.jpg"></div>
   </div>
-  <div class="bottom-box">
+  <div id="contact" class="bottom-box">
     <div class="textbox bottom">
       <div class="big">I paint pictures.<br>Do you want one?</div>
       <div>I explore creative fantasy worlds<br>
@@ -65,7 +72,7 @@
         WRITE ME AN EMAIL
       </div>
     </a>
-    <div class="small">
+    <div class="medium">
     (to info@illarstration.com)
     </div>
     <div class="bottom-logo">
